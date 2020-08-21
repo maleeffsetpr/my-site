@@ -12,14 +12,12 @@ body {
 }
 
 .container {
-  text-align: center;
   max-width: 928px;
   margin: 0 auto;
   padding: 0 16px;
 }
 
 .page-header {
-  text-align: right;
   margin: 0 0 160px;
   padding: 32px 0 32px;
 }
@@ -47,6 +45,14 @@ body {
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
 }
+
+.header-inst {
+ padding-left: 25px;
+  background-image: url("img/inst.svg"); 
+  background-size: 19px;
+}
+
+
 
 .hero-image {
   margin-bottom: 620px;
@@ -152,7 +158,7 @@ body {
 }
 
 .project-image {
-  margin: 0 0 24px;
+  margin: 0 0 0px;
   text-align: center;
 }
 
@@ -194,3 +200,11 @@ body {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
 }
+
+.footer-inst {
+  padding-left: 25px;
+  background-image: url("img/inst-foot.svg"); 
+  background-size: 19px;
+}
+}
+
